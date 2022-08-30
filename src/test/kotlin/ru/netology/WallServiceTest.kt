@@ -19,7 +19,7 @@ class WallServiceTest {
         WallService.add(Post(-1, 44, "Geography"))
         WallService.add(Post(-1, 43, "Geography"))
 
-        val update = Post(8, 35, "Text")
+        val update = Post(3, 35, "Text")
 
         val result = WallService.update(update)
 
